@@ -1,6 +1,7 @@
 /* 
 primary #2d2640
 secondary #f2d280
+text colour : #d7e4f7
 */
 @font-face {
     font-family: 'Coolvetica'; /*a name to be used later*/
@@ -22,9 +23,9 @@ secondary #f2d280
     padding: 7px;
     font-family: "Coolvetica";
     letter-spacing: 2px;
-    color: #ffffff;
-    width:500px;
-    height:500px;
+    color: #d7e4f7;
+    width:30%;
+    height:40%;
 }
 .logo {
     scale:10%;
@@ -45,7 +46,7 @@ body {
     padding:7px;
     border:7px solid #7a693e;
     text-align: center;
-    color: #ffffff; 
+    color: #d7e4f7; 
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
