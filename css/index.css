@@ -23,6 +23,8 @@ secondary #f2d280
     font-family: "Coolvetica";
     letter-spacing: 2px;
     color: #ffffff;
+    width:500px;
+    height:500px;
 }
 .logo {
     scale:10%;
