@@ -3,6 +3,13 @@ primary #2d2640
 secondary #f2d280
 text colour : #d7e4f7
 */
+:root{
+    --base:#23252e;
+    --accent:#5f6e85;
+    --text:#f2b407;
+    --outline:#ffc526;
+}
+
 @font-face {
     font-family: 'Coolvetica'; /*a name to be used later*/
     src: url('../fnt/coolvetica.otf'); /*URL to font*/
@@ -14,16 +21,16 @@ text colour : #d7e4f7
 }
 
 .header {
-    background-color: #463c64;
+    background-color: var(--accent);
     text-align: center;
     display: table;
     margin: 0 auto;
-    border:7px solid #7a693e;
+    border:7px solid var(--outline);
     border-radius: 15px;
     padding: 7px;
     font-family: "Coolvetica";
     letter-spacing: 2px;
-    color: #d7e4f7;
+    color: var(--text);
     width:30%;
     height:40%;
 }
@@ -36,17 +43,17 @@ text colour : #d7e4f7
 }
 
 body {
-    background-color:#231e31
+    background-color: var(--base);
 }
 
 .msg1 {
-    background-color: #463c64;
+    background-color: var(--accent);
     display: inline-block;
     border-radius: 7px;
     padding:7px;
-    border:7px solid #7a693e;
+    border:7px solid var(--outline);
     text-align: center;
-    color: #d7e4f7; 
+    color: var(--text); 
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
