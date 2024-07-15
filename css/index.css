@@ -1,0 +1,57 @@
+/* 
+primary #2d2640
+secondary #f2d280
+*/
+@font-face {
+    font-family: 'Coolvetica'; /*a name to be used later*/
+    src: url('../fnt/coolvetica.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Nexa'; /*a name to be used later*/
+    src: url('../fnt/Nexa-ExtraLight.ttf'); /*URL to font*/
+}
+
+.header {
+    background-color: #463c64;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    border:7px solid #7a693e;
+    border-radius: 15px;
+    padding: 7px;
+    font-family: "Coolvetica";
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+.logo {
+    scale:10%;
+    float:left;
+    position:absolute;
+    top:-225px;
+    left:-225px;
+}
+
+body {
+    background-color:#231e31
+}
+
+.msg1 {
+    background-color: #463c64;
+    display: inline-block;
+    border-radius: 7px;
+    padding:7px;
+    border:7px solid #7a693e;
+    text-align: center;
+    color: #ffffff; 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Nexa";
+    transition: 0.3s;
+}
+
+
+.msg1:active {
+    transform: translateX(1px)
+}
