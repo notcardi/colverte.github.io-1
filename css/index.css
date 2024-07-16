@@ -78,6 +78,7 @@ body {
     transition: 0.3s;
 }                                      
 
+
 .msg1:active, .msg2:active{
     transform: translateX(1px)
 }
