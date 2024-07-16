@@ -76,8 +76,7 @@ body {
     transform: translateX(-50%);
     font-family: "Nexa";
     transition: 0.3s;
-}
-    
+}                                   
 
 .msg1:active, .msg2:active{
     transform: translateX(1px)
