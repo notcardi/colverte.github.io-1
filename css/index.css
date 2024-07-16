@@ -59,9 +59,26 @@ body {
     transform: translateX(-50%);
     font-family: "Nexa";
     transition: 0.3s;
+    top:40%;
 }
 
+.msg2 {
+    background-color: var(--accent);
+    display: inline-block;
+    border-radius: 7px;
+    padding:7px;
+    border:7px solid var(--outline);
+    text-align: center;
+    color: var(--text); 
+    position: absolute;
+    left: 50%;
+    top:60%;
+    transform: translateX(-50%);
+    font-family: "Nexa";
+    transition: 0.3s;
+}                                      
 
-.msg1:active {
+
+.msg1:active, .msg2:active{
     transform: translateX(1px)
 }
