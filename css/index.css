@@ -58,10 +58,9 @@ body {
     color: var(--text); 
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
     font-family: "Nexa";
     transition: 0.3s;
-    top:40%;
+    top:20%;
 }
 
 .msg2 {
@@ -80,6 +79,8 @@ body {
     transition: 0.3s;
 }
 
+.msg1:active {
+}
 .msg1:active, .msg2:active{
     transform: translateX(0.75px)
 }
