@@ -59,7 +59,7 @@ body {
     transform: translateX(-50%);
     font-family: "Nexa";
     transition: 0.3s;
-    top:40%;
+    top:20%;
 }
 
 .msg2 {
@@ -72,21 +72,7 @@ body {
     color: var(--text); 
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
-    font-family: "Nexa";
-    transition: 0.3s;
-} 
-.msg2 {
-    background-color: var(--accent);
-    display: inline-block;
-    border-radius: 7px;
-    padding:7px;
-    border:7px solid var(--outline);
-    text-align: center;
-    color: var(--text); 
-    position: absolute;
-    left: 50%;
-    top:60%;
+    top:50%;
     transform: translateX(-50%);
     font-family: "Nexa";
     transition: 0.3s;
