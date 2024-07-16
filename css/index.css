@@ -2,7 +2,7 @@
 primary #2d2640
 secondary #f2d280
 text colour : #d7e4f7
-*/
+/
 :root{
     --base:#23252e;
     --accent:#5f6e85;
@@ -11,13 +11,13 @@ text colour : #d7e4f7
 }
 
 @font-face {
-    font-family: 'Coolvetica'; /*a name to be used later*/
-    src: url('../fnt/coolvetica.otf'); /*URL to font*/
+    font-family: 'Coolvetica'; /a name to be used later/
+    src: url('../fnt/coolvetica.otf'); /URL to font/
 }
 
 @font-face {
-    font-family: 'Nexa'; /*a name to be used later*/
-    src: url('../fnt/Nexa-ExtraLight.ttf'); /*URL to font*/
+    font-family: 'Nexa'; /a name to be used later/
+    src: url('../fnt/Nexa-ExtraLight.ttf'); /URL to font/
 }
 
 .header {
@@ -46,6 +46,8 @@ body {
     background-color: var(--base);
 }
 
+/message */
+
 .msg1 {
     background-color: var(--accent);
     display: inline-block;
@@ -72,13 +74,12 @@ body {
     color: var(--text); 
     position: absolute;
     left: 50%;
-    top:60%;
+    top:90%;
     transform: translateX(-50%);
     font-family: "Nexa";
     transition: 0.3s;
-}                                      
-
+}
 
 .msg1:active, .msg2:active{
-    transform: translateX(1px)
+    transform: translateX(0.75px)
 }
