@@ -4,10 +4,10 @@ secondary #f2d280
 text colour : #d7e4f7
 */
 :root{
-    --base:#23252e;
+    --base:#45475a;
     --accent:#5f6e85;
-    --text:#f2b407;
-    --outline:#ffc526;
+    --text:#bac2de;
+    --outline:#f5c2e7;
 }
 
 @font-face {
